@@ -1,7 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import { AppError } from '@/erros/app-erros'
 
-
 export function errorHandler(
   err: Error,
   req: Request,
